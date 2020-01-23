@@ -1,6 +1,6 @@
 DFLAGS=
 INCLUDE=.
-LIBS=-lSDL2 -lSDL2_image
+LIBS=-lSDL2
 CC=gcc
 OFLAGS=-c
 CFLAGS=-g3 -Wall -Wextra -std=c99 -pedantic -I$(INCLUDE) $(DFLAGS)
